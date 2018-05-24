@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header/>
-    <CreateBook/>
+    <ContentBook/>
     <Footer/>
   </div>
 </template>
@@ -10,15 +10,14 @@
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import CreateBook from '@/components/CreateBook.vue'
-
+import ContentBook from '@/components/ContentBook.vue'
 
 export default {
-  name: 'book',
+  name: 'bookContent',
   components: {
     Header,
     Footer,
-    CreateBook
+    ContentBook
   }
 }
 </script>
